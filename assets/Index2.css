@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/************************************** RESET ENDS *******************************************/ 
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+<header class="container">...</header>
+
+<footer class="container">...</footer>
+<h1>
+  <a href="index.html">Styles Conference</a>
+</h1>
+<section class="container">...</section>
+<section class="container">
+  <h1>...</h1>
+</section>/*
+  ========================================
+  Typography
+  ========================================
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+<header>
+<head>
+  <meta charset="utf-8">
+  <title>Styles Conference</title>
+  <link rel="stylesheet" href="Interactive/assets/index2.css">
+</head>
+</header
+<section>
+
+  <a href="register.html">Register Now</a>
+
+</section>
+<section>
+
+  <section>
+    <a href="speakers.html">
+      <h5>Speakers</h5>
+      <h3>World-Class Speakers</h3>
+    </a>
+    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+  </section>
+</section>
+
+
+
+
