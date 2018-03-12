@@ -47,8 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/*********************RESET ENDS***********************/
-
+/*****************RESET ENDS*******************/
 *,
 *:before,
 *:after {
@@ -58,36 +57,70 @@ table {
 }
 
 .container {
-  margin: 50px auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 90%;
-    height: 750px
+  margin: 20px auto;
+  padding-left: 70px;
+  padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 90%;
+    background-color: white;
+    height: 1600px; 
 }
 
-h1, h2, h3, h6 {
+/***************************TYPE******************************/
+
+h1,{
+    margin-bottom: 20pt; 
+}
+/***********************************BUTTON******************************/
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+/*********************************HOME***************************/
+.hero {
+  padding: 22px 80px 66px 80px;
+}
+
+/*****************************CLEARFIX*******************************/
+
+.group:before,
+.group:after {
+    display:table;
+}
+
+.group:after {
+    clear:both;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+.container {
+    font-family: sans-serif;
     font-size: 18pt;
-}
-
-aside {
-  float: right;
-    text-align: right;
-}
-
-h6{
-    float: right;
-    font-size: 12pt;
-}
-
-h4, p {
-    line-height: 50pt;
-    font-weight: bold;
-    font-size: 40px;
+    color: white; 
+    background-color: 
+    
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: bold
+    line-height: 30pt;
+    font-size: 30pt;
+    color: darkcyan
+}
+
+h3 {
+    font-size: 12pt;  
+    line-height: 40pt;
+    font-weight: bold;
+    color: darkcyan
 }
 
 

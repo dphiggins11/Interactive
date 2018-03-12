@@ -59,10 +59,11 @@ table {
 
 .container {
   margin: 50px auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 90%;
-    height: 750px
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%;
+    height: 1300px;
+        
 }
 
 h1, h2, h3, h6 {
@@ -70,24 +71,52 @@ h1, h2, h3, h6 {
 }
 
 aside {
-  float: right;
+    float: right;
     text-align: right;
 }
 
 h6{
     float: right;
-    font-size: 12pt;
+    font-size: 20pt;
 }
 
 h4, p {
-    line-height: 50pt;
-    font-weight: bold;
-    font-size: 40px;
+    line-height: 28pt;
+    font-weight: inherit;
+    font-size: 20pt;
+    color: black;
 }
 
 h1 {
     font-size: 40px;
-    font-weight: bold
+    font-weight: bold;
+    color: black;
+    
+}
+
+.wreck {
+    font-size: 100pt;
+    line-height: 100px;
+    color: darkcyan;
+}
+
+.three {
+    font-size: 200pt;
+    line-height: 200pt;
+    color: whitesmoke;
+    text-align: center;
+        
+}
+
+.final {
+    font-size: 20pt; 
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+h4, p {
+    background-color: darkcyan;
 }
 
 
