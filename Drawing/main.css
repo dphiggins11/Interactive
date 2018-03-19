@@ -1,0 +1,377 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************RESET ENDS*******************/
+
+.container {
+  margin: 50px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 90%;
+    height: 750px;
+}
+
+/********************* Drawing 1****************/
+
+.head {
+    position: absolute;
+    margin: 100px auto; 
+    margin-left: 100px;
+    margin-right: 100px;
+	width: 500px;
+	height: 300px;
+	background: antiquewhite;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 200px / 100px;
+    z-index: 1;
+}
+
+.glassesframeleft {
+    position: absolute;
+    margin-left: 200px;
+    margin-right: 100px;
+    width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 2; 
+}
+
+.glassesframeright {
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 100px;
+    width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 2; 
+}
+
+.insideglassesright {
+    position: absolute;
+    margin-left: 413px;
+    margin-right: 100px;
+    width: 75px;
+	height: 75px;
+	background: antiquewhite;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 3; 
+}
+
+.insideglassesleft {
+    position: absolute;
+    margin-left: 213px;
+    margin-right: 100px;
+    width: 75px;
+	height: 75px;
+	background: antiquewhite;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 3; 
+}
+
+.glassesconnect {
+    position: absolute;
+    margin-left: 90px;
+    width: 520px;
+	height: 10px;
+	background: black;
+    z-index: 2; 
+}
+.lefteye {
+    position: absolute; 
+    margin-left: 240px;
+    background: blue;
+    height: 07px;
+    position: relative;
+    width: 20px;
+    z-index: 4;
+}
+
+.righteye {
+    position: absolute; 
+    margin-left: 440px;
+    width: 20px;
+	height: 20px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 4;
+}
+
+.nose {
+   position: absolute; 
+    margin-left: 330px;
+    width: 40px;
+	height: 80px;
+	background: tan;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 4;
+}
+
+.smile{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-left: 312px;
+    margin-top: 60px;
+    border-radius: 50%;
+    box-shadow: 0px -10px 0 0 firebrick;
+    z-index: 4;
+}
+
+.body {
+    margin-left: 60px;
+    width: 600px;
+	height: 400px;
+	background-color:dimgrey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 1000px;
+    z-index: 1;
+}
+
+.leftfoot {
+    position: absolute;
+    margin-left: 100px;
+    width: 130px;
+	height: 50px;
+	background-color:darkblue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+    z-index: 1;
+}
+
+.rightfoot {
+    position: absolute;
+    margin-left: 500px;
+    width: 130px;
+	height: 50px;
+	background-color:darkblue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+    z-index: 1;
+}
+
+
+
+/*************Drawing2***************/
+
+.container2 {
+  margin: 50px auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 50%;
+    height: 750px;
+}
+.greedhead {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    margin-left: 170px;
+    border-right: 60px solid transparent; border-top: 60px solid antiquewhite;
+    border-left: 60px solid antiquewhite;
+    border-bottom: 60px solid antiquewhite;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    z-index: 3;
+}
+
+.greedeye { 
+    position: absolute;
+    margin-left:220px;
+    margin-top: 30px;
+    width: 15px;
+	height: 15px;
+	background-color: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 4;
+}
+
+.greedbody {
+    position: absolute;
+    width: 300px;
+	height: 400px;
+	background-color: darkslategrey;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 1000px;
+    z-index: 2;
+}
+
+.bowtiecircle {
+    position: absolute;
+    margin-left:220px;
+    margin-top: 30px;
+    width: 20px;
+	height: 20px;
+	background-color: gold;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    z-index: 4;
+}
+
+.bowtieleft {
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 3px;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 50px solid darkgoldenrod;
+	border-bottom: 20px solid transparent;
+    z-index: 3;
+}
+
+.bowtieright {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 3px;
+    width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 50px solid darkgoldenrod;
+	border-bottom: 20px solid transparent;
+    z-index: 3;
+}
+
+.greedbelt {
+    position: absolute;
+    width: 300px;
+	height: 30px;
+	background: black;
+    z-index: 4;
+}
+
+.greedbeltbuckle {
+    margin-left: 210px;
+    position: absolute;
+    width: 42px;
+	height: 45px;
+	background: gold;
+    z-index: 5;
+}
+
+.greedleftfoot {
+    position: absolute;
+    margin-left: 10px;
+    width: 100px;
+	height: 50px;
+	background-color:black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+    z-index: 5;
+}
+
+.greedrightfoot {
+    position: absolute;
+    margin-left: 180px;
+    width: 100px;
+	height: 50px;
+	background-color:black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+    z-index: 1;
+}
+
+.greedbeltinside {
+    margin-left: 215px;
+    margin-top: 8px;
+    position: absolute;
+    width: 30px;
+	height: 30px;
+	background: black;
+    z-index: 6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

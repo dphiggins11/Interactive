@@ -61,26 +61,16 @@ table {
   padding-left: 70px;
   padding-right: 70px;
     padding-top: 70px;
-    padding-bottom: 100px;
-    width: 90%;
+    padding-bottom: 65px;
+    width: 80%;
     background-color: white;
-    height: 1600px; 
+    height: 700px; 
 }
 
 /***************************TYPE******************************/
 
 h1,{
     margin-bottom: 20pt; 
-}
-/***********************************BUTTON******************************/
-.btn {
-  border-radius: 5px;
-  display: inline-block;
-  margin: 0;
-}
-.btn-alt {
-  border: 1px solid #dfe2e5;
-  padding: 10px 30px;
 }
 /*********************************HOME***************************/
 .hero {
@@ -110,6 +100,7 @@ h1,{
     
 }
 
+
 h1 {
     line-height: 30pt;
     font-size: 30pt;
@@ -120,7 +111,57 @@ h3 {
     font-size: 12pt;  
     line-height: 40pt;
     font-weight: bold;
-    color: darkcyan
+    color: darkcyan;
+    text-align: right;
+    margin-right: 85px;
+    margin-top: 20px; 
+}
+
+/****************columns******************/
+.level1 {
+    display: inline-block;
+    float: left;
+    margin: 20px; 
+}
+
+.level2 {
+    display: inline-block;
+    float: left; 
+    margin: 20px;
+}
+.level3 {
+    display: inline-block;
+    float: left; 
+    margin: 20px; 
+    
+}
+.level4 {
+    display: inline-block; 
+    float: left;
+    margin: 20px; 
+}
+
+.level5 {
+    display: inline-block; 
+    float:left;
+    margin: 20px;
+}
+/******************Type*****************/
+
+.level1 {
+    font-family:monospace;
+}
+.level2 {
+    font-family: monospace;
+}
+.level3 {
+    font-family: monospace;
+}
+.level4 {
+    font-family: monospace; 
+}
+.level5 {
+    font-family: monospace;
 }
 
 
